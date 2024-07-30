@@ -24,7 +24,7 @@
 		<!-- Container wrapper -->
 		<div class="container">
 			<!-- Navbar brand -->
-			
+
 
 			<!-- Toggle button -->
 			<button data-mdb-collapse-init class="navbar-toggler" type="button"
@@ -38,18 +38,22 @@
 			<div class="collapse navbar-collapse" id="navbarButtonsExample">
 				<!-- Left links -->
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a class="nav-link" href="#">Hotel management system</a>
-					</li>
+					<li class="nav-item"><a class="nav-link" href="#">Hotel
+							management system</a></li>
 				</ul>
-				
-				<!-- Left links -->
 
+				<!-- Left links -->
+				<div style="margin-right: 130px;">
+					<a href="home-hotel-owner.jsp">Display-Hotels</a>
+				</div>
+				<div style="margin-right: 100px;">
+					<a href="hotel-register.jsp">Add-Hotels</a>
+				</div>
 				<div class="d-flex align-items-center">
 					<a href="ownerLogout" data-mdb-ripple-init role="button"
-						class="btn btn-link px-3 me-2">Logout</a>
-					<a data-mdb-ripple-init class="btn btn-dark px-3"
-						href="https://github.com/piyushchand16" role="button"><i
-						class="fab fa-github"></i></a>
+						class="btn btn-link px-3 me-2">Logout</a> <a data-mdb-ripple-init
+						class="btn btn-dark px-3" href="https://github.com/piyushchand16"
+						role="button"><i class="fab fa-github"></i></a>
 				</div>
 			</div>
 			<!-- Collapsible wrapper -->

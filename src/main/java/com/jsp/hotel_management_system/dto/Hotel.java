@@ -25,10 +25,27 @@ public class Hotel {
 	private String city;
 	private String address;
 	private double price;
+	private String verifyStatus;
 	@Column(columnDefinition = "LONGBLOB")
 	@Lob
 	private byte[] image;
 	
 	@ManyToOne
 	private HotelOwner hotelOwner;
+
+	public Hotel(String name, String city, String address, double price, String verifyStatus, byte[] image,
+			HotelOwner hotelOwner) {
+		super();
+		this.name = name;
+		this.city = city;
+		this.address = address;
+		this.price = price;
+		this.verifyStatus = "no";
+		this.image = image;
+		this.hotelOwner = hotelOwner;
+	}
+
+	
+	
+	
 }

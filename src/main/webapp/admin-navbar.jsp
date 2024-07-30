@@ -43,6 +43,13 @@
 				</ul>
 				
 				<!-- Left links -->
+				<div style="margin-right: 120px;">
+						<a href="hotel-display-admin.jsp">Verify-Hotel</a>
+				</div>
+				
+				<div style="margin-right: 180px;">
+						<a href="admin-home.jsp">Verify-Owner</a>
+				</div>
 
 				<div class="d-flex align-items-center">
 					<a href="logoutAdmin" data-mdb-ripple-init role="button"

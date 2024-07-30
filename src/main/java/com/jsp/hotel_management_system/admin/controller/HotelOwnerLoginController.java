@@ -6,6 +6,7 @@ import com.jsp.hotel_management_system.admin.dao.HotelOwnerDao;
 import com.jsp.hotel_management_system.dto.HotelOwner;
 
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.MultipartConfig;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -13,6 +14,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 @WebServlet(value="/hotelOwnerLogin")
+@MultipartConfig()
 public class HotelOwnerLoginController extends HttpServlet{
 	HotelOwnerDao dao=new HotelOwnerDao();
 	
